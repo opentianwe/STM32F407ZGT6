@@ -70,6 +70,9 @@
         "name": "USER",
         "files": [
           {
+            "path": "USER/DBG/DBG.c"
+          },
+          {
             "path": "USER/IIC/I2C.c"
           },
           {
@@ -356,7 +359,9 @@
           "USER",
           "STM32F4_FWLIB/inc",
           "STM32F4_FWLIB/src",
-          "USER/LED"
+          "USER/LED",
+          "USER/IIC",
+          "USER/DBG"
         ],
         "libList": [],
         "sourceDirList": [],
