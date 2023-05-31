@@ -3,15 +3,17 @@
         {
             "name": "STM32_F407",
             "includePath": [
-                "g:\\project\\Stm32F4-EEP-burner\\.eide\\deps",
-                "g:\\project\\Stm32F4-EEP-burner\\Common",
-                "g:\\project\\Stm32F4-EEP-burner\\Main",
-                "g:\\project\\Stm32F4-EEP-burner\\Startup_config",
-                "g:\\project\\Stm32F4-EEP-burner\\STM32F4_FWLIB",
-                "g:\\project\\Stm32F4-EEP-burner\\USER",
-                "g:\\project\\Stm32F4-EEP-burner\\STM32F4_FWLIB\\inc",
-                "g:\\project\\Stm32F4-EEP-burner\\STM32F4_FWLIB\\src",
-                "g:\\project\\Stm32F4-EEP-burner\\USER\\LED"
+                "d:\\Stm32F4-EEP-burner\\.eide\\deps",
+                "d:\\Stm32F4-EEP-burner\\Common",
+                "d:\\Stm32F4-EEP-burner\\Main",
+                "d:\\Stm32F4-EEP-burner\\Startup_config",
+                "d:\\Stm32F4-EEP-burner\\STM32F4_FWLIB",
+                "d:\\Stm32F4-EEP-burner\\USER",
+                "d:\\Stm32F4-EEP-burner\\STM32F4_FWLIB\\inc",
+                "d:\\Stm32F4-EEP-burner\\STM32F4_FWLIB\\src",
+                "d:\\Stm32F4-EEP-burner\\USER\\LED",
+                "D:\\Keil_v5\\ARM\\ARMCC\\include",
+                "D:\\Keil_v5\\ARM\\ARMCC\\include\\rw"
             ],
             "defines": [
                 "USE_STDPERIPH_DRIVER",

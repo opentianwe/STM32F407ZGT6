@@ -8,7 +8,8 @@
         "files.associations": {
             "stdio.h": "c",
             "DBG.C": "cpp",
-            "dbg.h": "c"
+            "dbg.h": "c",
+            "stdlib.h": "c"
         }
     },
     "extensions": {}
