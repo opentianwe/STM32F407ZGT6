@@ -126,11 +126,12 @@
         },
         "options": "null"
       },
-      "uploader": "Custom",
+      "uploader": "OpenOCD",
       "uploadConfig": {
         "bin": "",
-        "commandLine": "",
-        "eraseChipCommand": ""
+        "target": "stm32f4x",
+        "interface": "cmsis-dap-v1",
+        "baseAddr": "0x08000000"
       },
       "uploadConfigMap": {
         "JLink": {
@@ -179,7 +180,9 @@
           "USER",
           "STM32F4_FWLIB/inc",
           "STM32F4_FWLIB/src",
-          "USER/LED"
+          "USER/LED",
+          "USER/DBG",
+          "USER/IIC"
         ],
         "libList": [],
         "sourceDirList": [],

@@ -3,6 +3,14 @@
 #include <stdio.h>
 #include"common.h"
 #include"DBG.h"
+#ifdef _DEBUG_
+    #define DbgPrint(fmt, ...) printf(fmt, ##__VA_ARGS__)
+#else
+    #define DbgPrint(fmt, ...)
+#endif // DEBUG
+
+
+
 void printf_Init();
 
 //串口1发送一个字符

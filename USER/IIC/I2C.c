@@ -1,3 +1,4 @@
+#define _DEBUG_
 #include "I2C.h"
 #include "DBG.h"
 #include <stdlib.h>
@@ -134,7 +135,7 @@ void Send_i2c_byte(I2CHANDLE i2c,uint8_t data){
         else{
             Set_SDA(i2c, 0);
         }
-         printf("%d",Get_SDA(i2c));
+        DbgPrint("%d\n",Get_SDA(i2c));
         delay_us(5);
        
         Set_SCL(i2c, 1);
